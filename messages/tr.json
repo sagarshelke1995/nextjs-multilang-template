@@ -1,0 +1,19 @@
+{
+  "About": {
+    "title": "Hakkında"
+  },
+  "contact": {
+    "title": "İletişim"
+  },
+  "App": {
+    "title": "Ana Sayfa"
+  },
+  "Index": {
+    "title": "Ana Sayfa"
+  },
+  "PublicNavigation": {
+    "about": "Hakkında",
+    "home": "Ana Sayfa",
+    "contact": "İletişim"
+  }
+}

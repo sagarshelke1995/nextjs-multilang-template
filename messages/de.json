@@ -1,0 +1,19 @@
+{
+  "About": {
+    "title": "Über uns"
+  },
+  "contact": {
+    "title": "Kontakt"
+  },
+  "App": {
+    "title": "Startseite"
+  },
+  "Index": {
+    "title": "Startseite"
+  },
+  "PublicNavigation": {
+    "about": "Über uns",
+    "home": "Startseite",
+    "contact": "Kontakt"
+  }
+}

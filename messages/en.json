@@ -1,0 +1,19 @@
+{
+  "About": {
+    "title": "About"
+  },
+  "contact":{
+    "title" : "contact"
+  },
+  "App": {
+    "title": "Home"
+  },
+  "Index": {
+    "title": "Home"
+  },
+  "PublicNavigation": {
+    "about": "About",
+    "home": "Home",
+    "contact": "contact"
+  }
+}

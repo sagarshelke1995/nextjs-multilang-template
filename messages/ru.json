@@ -1,0 +1,19 @@
+{
+  "About": {
+    "title": "О нас"
+  },
+  "contact": {
+    "title": "Контакты"
+  },
+  "App": {
+    "title": "Главная"
+  },
+  "Index": {
+    "title": "Главная"
+  },
+  "PublicNavigation": {
+    "about": "О нас",
+    "home": "Главная",
+    "contact": "Контакты"
+  }
+}
