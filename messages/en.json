@@ -3,7 +3,7 @@
     "title": "About"
   },
   "contact":{
-    "title" : "contact"
+    "title" : "Contact"
   },
   "App": {
     "title": "Home"
@@ -11,9 +11,32 @@
   "Index": {
     "title": "Home"
   },
+  "faq" : {
+    "title" : "FAQ"
+  },
   "PublicNavigation": {
-    "about": "About",
+        "home": "Home",
+        "about": "About",
+        "contact": "Contact",
+        "faq": "Faq's"
+  },
+ "HomePage": {
+    "badge": "Empowering developers worldwide",
+    "title": "Build, launch and scale with ",
+    "highlight": "Next-Generation Tools",
+    "description": "A fast, modern and reliable platform designed to help developers and businesses create exceptional digital experiences. Start building with powerful features, seamless performance and complete flexibility.",
+    "downloadBtn": "Get Started",
+    "learnMore": "Learn More"
+  },
+   "Footer": {
+    "brand": "NextJs",
+    "tagline": "A modern platform that empowers developers and businesses to build better products.",
+    "linksTitle": "Quick Links",
     "home": "Home",
-    "contact": "contact"
+    "about": "About",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "rights": "All rights reserved"
   }
+
 }

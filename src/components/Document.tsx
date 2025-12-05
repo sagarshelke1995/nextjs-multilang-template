@@ -1,6 +1,6 @@
 import {Inter} from 'next/font/google';
 import {ReactNode} from 'react';
-import './globals.css';
+import "../globals.css"
 
 const inter = Inter({
   subsets: ['latin'],
@@ -14,7 +14,7 @@ type Props = {
 
 export default function Document({children, locale}: Props) {
   return (
-    <html className={inter.className} lang={locale}>
+      <html lang={locale} className={inter.className} suppressHydrationWarning>
       <body>{children}</body>
     </html>
   );

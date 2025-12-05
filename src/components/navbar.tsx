@@ -1,6 +1,6 @@
 import {useTranslations} from 'next-intl';
 import NavLink from './NavLink';
-import LanguageSwitcher from './languageSwitcher';
+
 
 export default function Navbar() {
   const t = useTranslations('PublicNavigation');
@@ -13,8 +13,9 @@ export default function Navbar() {
       <NavLink href="/">{t('home')}</NavLink>
       <NavLink href="/about">{t('about')}</NavLink>
       <NavLink href="/contact">{t('contact')}</NavLink>
+      <NavLink href="/faq">{t('faq')}</NavLink>
     </nav>
-    <LanguageSwitcher/>
+  
     </div>
     </>
   );

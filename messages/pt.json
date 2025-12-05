@@ -11,9 +11,31 @@
   "Index": {
     "title": "Início"
   },
+  "faq": {
+    "title": "FAQ"
+  },
   "PublicNavigation": {
-    "about": "Sobre",
     "home": "Início",
-    "contact": "Contato"
+    "about": "Sobre",
+    "contact": "Contato",
+    "faq": "FAQ"
+  },
+   "HomePage": {
+    "badge": "Empoderando desenvolvedores em todo o mundo",
+    "title": "Crie, lance e escale com ",
+    "highlight": "Ferramentas de Nova Geração",
+    "description": "Uma plataforma moderna, rápida e confiável para ajudar desenvolvedores e empresas a criar experiências digitais incríveis. Comece a construir com recursos poderosos e total flexibilidade.",
+    "downloadBtn": "Começar",
+    "learnMore": "Saiba mais"
+  },
+   "Footer": {
+    "brand": "NextJs",
+    "tagline": "Uma plataforma moderna que ajuda desenvolvedores e empresas a criar produtos melhores.",
+    "linksTitle": "Links rápidos",
+    "home": "Início",
+    "about": "Sobre",
+    "contact": "Contato",
+    "faq": "FAQ",
+    "rights": "Todos os direitos reservados"
   }
 }

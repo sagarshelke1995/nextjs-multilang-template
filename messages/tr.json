@@ -11,9 +11,31 @@
   "Index": {
     "title": "Ana Sayfa"
   },
+  "faq": {
+    "title": "SSS"
+  },
   "PublicNavigation": {
-    "about": "Hakkında",
     "home": "Ana Sayfa",
-    "contact": "İletişim"
+    "about": "Hakkında",
+    "contact": "İletişim",
+    "faq": "SSS"
+  },
+  "HomePage": {
+    "badge": "Dünyanın her yerindeki geliştiricileri güçlendiriyoruz",
+    "title": "Geliştir, yayınla ve ölçeklendir ",
+    "highlight": "Yeni Nesil Araçlarla",
+    "description": "Geliştiricilerin ve işletmelerin modern dijital deneyimler oluşturmasını sağlayan hızlı ve güvenilir bir platform. Güçlü özelliklerle ve esnek altyapıyla hemen oluşturmaya başla.",
+    "downloadBtn": "Başla",
+    "learnMore": "Daha fazla bilgi"
+  },
+   "Footer": {
+    "brand": "NextJS",
+    "tagline": "Geliştiricilere ve işletmelere daha iyi ürünler oluşturma gücü veren modern bir platform.",
+    "linksTitle": "Hızlı Bağlantılar",
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "faq": "SSS",
+    "rights": "Tüm hakları saklıdır"
   }
 }

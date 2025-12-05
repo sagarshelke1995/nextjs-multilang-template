@@ -10,5 +10,11 @@ export default function About({params}: PageProps<'/[locale]/about'>) {
   setRequestLocale(locale as Locale);
 
   const t = useTranslations('About');
-  return <PageTitle>{t('title')}</PageTitle>;
+  return (
+       <div className="max-w-6xl p-5 mx-auto">
+        <div className="py-20 mx-auto w-max text-xl">
+         <PageTitle>{t('title')}</PageTitle>
+        </div>
+       </div>
+  )
 }

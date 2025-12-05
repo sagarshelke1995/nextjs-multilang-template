@@ -2,11 +2,24 @@ import {Metadata} from 'next';
 import {notFound} from 'next/navigation';
 import {NextIntlClientProvider, hasLocale} from 'next-intl';
 import {setRequestLocale} from 'next-intl/server';
-import Document from '@/components/Document';
 import {locales} from '@/config';
-import Navbar from '../../components/navbar';
+import  Header  from "@/components/Header"
+import  Footer  from "@/components/Footer"
+import { ThemeProvider } from "@/components/utils/theme-provider";
 
+import {Inter} from 'next/font/google';
+import {ReactNode} from 'react';
+import "../../globals.css"
 
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap'
+});
+
+type Props = {
+  children: ReactNode;
+  locale: string;
+};
 export function generateStaticParams() {
   return locales.map((locale) => ({locale}));
 }
@@ -14,6 +27,8 @@ export function generateStaticParams() {
 export const metadata: Metadata = {
   title: 'next-intl-mixed-routing (public)'
 };
+
+
 
 export default async function LocaleLayout({
   children,
@@ -29,13 +44,18 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
 
   return (
-    <Document locale={locale}>
-      <NextIntlClientProvider>
-        <div className="m-auto max-w-[60rem] p-4">
-          <Navbar />
-          <div className="-mx-4 min-h-[200px] bg-slate-100 p-4">{children}</div>
-        </div>
-      </NextIntlClientProvider>
-    </Document>
+
+      <html lang={locale} className={inter.className} suppressHydrationWarning>
+      <body>
+          <NextIntlClientProvider>
+             <ThemeProvider attribute="class" defaultTheme="light"> 
+              <main className="relative overflow-hidden">    
+              <Header/>
+                {children}
+              </main>      
+              </ThemeProvider>
+          </NextIntlClientProvider>
+        </body>
+    </html>  
   );
 }
